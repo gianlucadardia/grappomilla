@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GrappoMilla - Il rimedio non ufficiale ai problemi ufficiali. Camomilla, grappa, proporzioni QB.">
+    <title>GrappoMilla - Folklore, not policies</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">🍶 GrappoMilla</div>
+                <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Attiva/disattiva modalità scura">
+                    <span class="icon-sun">☀️</span>
+                    <span class="icon-moon">🌙</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">GrappoMilla</h1>
+                <p class="hero-subtitle">Camomilla. Grappa. Proporzioni: <strong>QB.</strong></p>
+                <p class="hero-description">Il rimedio non ufficiale ai problemi ufficiali</p>
+                <button class="cta-button" id="ctaButton" aria-label="Scopri di più su GrappoMilla">
+                    Scopri la leggenda
+                </button>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/fiaschetta-placeholder.svg" alt="Fiaschetta di GrappoMilla" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Proportion Meter -->
+    <section class="proportion-meter">
+        <div class="container">
+            <div class="meter-display">
+                <span class="meter-icon">📊</span>
+                <p id="proportionText" class="meter-text">Caricamento stato giornata...</p>
+                <button id="refreshMeter" class="meter-refresh" aria-label="Aggiorna lo stato della giornata">🔄</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cos'è GrappoMilla -->
+    <section class="section section-light" id="about">
+        <div class="container">
+            <h2 class="section-title">Cos'è GrappoMilla?</h2>
+            <div class="content-block">
+                <p>
+                    GrappoMilla non è solo una bevanda. È un <strong>simbolo di sopravvivenza</strong>, 
+                    un inside joke nato dalle conversazioni di un team che ha attraversato giornate 
+                    impossibili e ne è uscito ridendo.
+                </p>
+                <p>
+                    Nata in epoca universitaria, tra esami e tesi interminabili, la GrappoMilla è 
+                    diventata rapidamente il <strong>rimedio non ufficiale</strong> per tutti quei 
+                    momenti in cui i problemi ufficiali sembravano insormontabili.
+                </p>
+                <p>
+                    Da allora, è diventata molto di più: un rituale, una filosofia, un brand ironico 
+                    che rappresenta la resilienza del team. E sì, <strong>ora la usiamo anche nelle demo</strong>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- La Ricetta -->
+    <section class="section section-dark" id="recipe">
+        <div class="container">
+            <h2 class="section-title">La Ricetta (non scientifica)</h2>
+            <div class="recipe-card">
+                <div class="recipe-ingredients">
+                    <h3>Ingredienti:</h3>
+                    <ul class="ingredients-list">
+                        <li>🍃 Camomilla (base calmante)</li>
+                        <li>🍶 Grappa (variabile dipendente)</li>
+                        <li>⚖️ Proporzioni: <strong>QB</strong></li>
+                    </ul>
+                </div>
+                <div class="recipe-instructions">
+                    <h3>Istruzioni:</h3>
+                    <ol class="instructions-list">
+                        <li>Prepara una camomilla calda</li>
+                        <li>Valuta quanto è stata dura la giornata</li>
+                        <li>Aggiungi grappa in proporzione QB</li>
+                        <li>Mescola con consapevolezza esistenziale</li>
+                        <li>Sorseggia lentamente mentre rifletti sulle scelte di vita</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="disclaimer">
+                <p>⚠️ <strong>Disclaimer:</strong> Non è un consiglio medico. È folklore. 
+                   GrappoMilla è un inside joke, non una prescrizione. Consumare responsabilmente 
+                   (o meglio, non consumare affatto e limitarsi a ridere dell'idea).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quando si invoca -->
+    <section class="section section-light" id="use-cases">
+        <div class="container">
+            <h2 class="section-title">Quando si invoca GrappoMilla</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🎤</div>
+                    <h3 class="card-title">Dopo una demo live</h3>
+                    <p class="card-text">
+                        Quando hai fatto una presentazione e tutto è andato bene... 
+                        o almeno così sembrava fino all'ultimo minuto.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <h3 class="card-title">Post staff meeting</h3>
+                    <p class="card-text">
+                        Quelle riunioni che iniziano con "sarà breve" e finiscono 
+                        tre ore dopo con più domande che risposte.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⏳</div>
+                    <h3 class="card-title">Il cerchio che gira</h3>
+                    <p class="card-text">
+                        Quando vedi quel cerchio rosso (o blu, o qualsiasi colore) 
+                        che gira all'infinito e capisci che sarà una lunga giornata.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌙</div>
+                    <h3 class="card-title">Prima di dormire</h3>
+                    <p class="card-text">
+                        Quando hai troppi pensieri nella testa e serve qualcosa 
+                        per convincere il cervello che è ora di spegnere.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Folklore: Cortina Edition -->
+    <section class="section section-folklore" id="folklore">
+        <div class="container">
+            <h2 class="section-title">Folklore: Cortina Edition</h2>
+            <div class="folklore-content">
+                <div class="folklore-image">
+                    <img src="assets/img/cortina-placeholder.svg" alt="Illustrazione montagne di Cortina" loading="lazy">
+                </div>
+                <div class="folklore-text">
+                    <p class="folklore-intro">
+                        C'era una volta una trasferta leggendaria. Non una trasferta qualsiasi, 
+                        ma <strong>LA trasferta di Cortina</strong>.
+                    </p>
+                    <p>
+                        Skipass in mano, polenta e cervo nel menù, e una domanda esistenziale: 
+                        come sopravvivere alle piste dopo una settimana di sprint infiniti?
+                    </p>
+                    <p>
+                        La risposta arrivò naturalmente: <strong>"Fiaschetta di grappomilla e vai..."</strong>
+                    </p>
+                    <p>
+                        Da quel giorno, ogni volta che si parla di montagna, neve o trasferte, 
+                        qualcuno nel team sussurra queste parole magiche. È diventata una sorta 
+                        di mantra, un augurio, un modo per dire: "ce la faremo, come sempre".
+                    </p>
+                    <blockquote class="folklore-quote">
+                        "Fiaschetta di grappomilla e vai... che tanto l'indomani è sempre un altro giorno."
+                        <cite>— Saggezza popolare del team</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GrappoMilla x AI -->
+    <section class="section section-ai" id="gelatai">
+        <div class="container">
+            <div class="ai-header">
+                <div class="ai-icon">
+                    <img src="assets/img/ai-demo-placeholder.svg" alt="Icona AI e demo" loading="lazy">
+                </div>
+                <div class="ai-title-block">
+                    <h2 class="section-title">GelatAI by GrappoMilla</h2>
+                    <p class="ai-subtitle">Translytical Task Flow™</p>
+                </div>
+            </div>
+            <div class="ai-content">
+                <p>
+                    Quando GrappoMilla incontra l'intelligenza artificiale, nasce <strong>GelatAI</strong>: 
+                    il framework ironico per demo che nessuno ha mai chiesto ma tutti meritano.
+                </p>
+                <p>
+                    Durante uno staff meeting memorabile è stato deciso: <em>"Da qui in poi lo useremo 
+                    nelle nostre demo"</em>. E così è stato.
+                </p>
+                <div class="ai-features">
+                    <div class="feature-badge">
+                        <span class="badge-icon">🤖</span>
+                        <span class="badge-text">AI-Powered Folklore</span>
+                    </div>
+                    <div class="feature-badge">
+                        <span class="badge-icon">📊</span>
+                        <span class="badge-text">Translytical Processing</span>
+                    </div>
+                    <div class="feature-badge">
+                        <span class="badge-icon">☁️</span>
+                        <span class="badge-text">Cloud-Based Humor</span>
+                    </div>
+                    <div class="feature-badge">
+                        <span class="badge-icon">🚀</span>
+                        <span class="badge-text">Enterprise-Grade Irony</span>
+                    </div>
+                </div>
+                <p class="ai-disclaimer">
+                    * GelatAI non è un prodotto reale. È un'estensione del folklore. 
+                    Ma se qualcuno vuole costruirlo davvero, accettiamo PR.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section-light" id="faq">
+        <div class="container">
+            <h2 class="section-title">FAQ (Frequently Asked Folklore)</h2>
+            <div class="faq-list">
+                <details class="faq-item">
+                    <summary class="faq-question">È reale?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            È reale quanto basta per farci ridere. GrappoMilla vive nel folklore 
+                            del team, nelle battute durante le call, nei messaggi di auguri. 
+                            È reale come inside joke, non come prodotto commerciale.
+                        </p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Come funzionano le proporzioni?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            <strong>QB.</strong> Quanto Basta. Dipende dalla giornata. Se la giornata 
+                            è stata tranquilla, magari QB è "poco". Se è stata una giornata tipo 
+                            "tre demo live + due incident + uno staff meeting di 4 ore", allora QB 
+                            aumenta proporzionalmente. È matematica emotiva.
+                        </p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Esiste davvero il dominio grappomilla.com?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            Al momento della creazione di questo sito, <strong>grappomilla.com non è 
+                            ancora registrato</strong>. È un piccolo easter egg del team: l'idea che 
+                            un giorno qualcuno lo registri davvero e ci metta... beh, questo sito. 
+                            O forse un e-commerce di fiaschette personalizzate. Chi lo sa?
+                        </p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Posso ordinare una GrappoMilla?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            GrappoMilla non si ordina, si <em>invoca</em>. Non è in vendita, 
+                            non è un servizio. È uno stato mentale. Puoi provare a ricrearla 
+                            a casa tua (a tuo rischio e pericolo), ma ricorda: il vero potere 
+                            della GrappoMilla sta nel contesto condiviso e nelle risate del team.
+                        </p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">GelatAI è disponibile per uso commerciale?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            GelatAI è un brand ironico nato da uno staff meeting. Non esiste come 
+                            prodotto reale (ancora). Ma se vuoi usarlo nelle tue demo come noi, 
+                            sentiti libero: il folklore è open source per natura.
+                        </p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Qual è l'origin story esatta?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            Padova, periodo esami/tesi. Stress alle stelle, sonno a zero, 
+                            cervello in modalità survival. Qualcuno ha avuto l'intuizione: 
+                            "E se mischiassimo camomilla rilassante con grappa energizzante?" 
+                            Da lì è nata la leggenda. Anni dopo, è diventata il simbolo 
+                            non ufficiale del team.
+                        </p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Perché questo sito esiste?</summary>
+                    <div class="faq-answer">
+                        <p>
+                            Perché a volte le cose migliori nascono dalle battute. Perché il team 
+                            ha bisogno di leggerezza. Perché quando lavori sodo, hai diritto anche 
+                            a ridere di te stesso. E perché qualcuno in chat ha detto "grappomilla.com 
+                            non è registrato" e l'idea è diventata troppo divertente per non realizzarla.
+                        </p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>🍶 GrappoMilla</h3>
+                    <p>Powered by folklore, not by policies.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">Cos'è</a>
+                    <a href="#recipe" class="footer-link">Ricetta</a>
+                    <a href="#folklore" class="footer-link">Folklore</a>
+                    <a href="#faq" class="footer-link">FAQ</a>
+                </div>
+                <div class="footer-easter-egg">
+                    <p class="easter-egg-text">
+                        🎁 Easter Egg: <a href="http://grappomilla.com" class="easter-egg-link" target="_blank" rel="noopener noreferrer">grappomilla.com</a> (non ancora registrato)
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> GrappoMilla - Un progetto di folklore collettivo</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

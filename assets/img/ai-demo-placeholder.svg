@@ -1,0 +1,39 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2A9D8F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4A574;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="150" cy="150" r="140" fill="url(#aiGrad)" opacity="0.2"/>
+  
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#2A9D8F" stroke-width="4"/>
+  
+  <circle cx="150" cy="100" r="12" fill="#2A9D8F"/>
+  <circle cx="120" cy="150" r="12" fill="#2A9D8F"/>
+  <circle cx="180" cy="150" r="12" fill="#2A9D8F"/>
+  <circle cx="150" cy="200" r="12" fill="#2A9D8F"/>
+  <circle cx="105" cy="125" r="8" fill="#D4A574"/>
+  <circle cx="195" cy="125" r="8" fill="#D4A574"/>
+  <circle cx="105" cy="175" r="8" fill="#D4A574"/>
+  <circle cx="195" cy="175" r="8" fill="#D4A574"/>
+  
+  <line x1="150" y1="100" x2="120" y2="150" stroke="#8B7355" stroke-width="2" opacity="0.6"/>
+  <line x1="150" y1="100" x2="180" y2="150" stroke="#8B7355" stroke-width="2" opacity="0.6"/>
+  <line x1="120" y1="150" x2="150" y2="200" stroke="#8B7355" stroke-width="2" opacity="0.6"/>
+  <line x1="180" y1="150" x2="150" y2="200" stroke="#8B7355" stroke-width="2" opacity="0.6"/>
+  <line x1="105" y1="125" x2="120" y2="150" stroke="#8B7355" stroke-width="2" opacity="0.4"/>
+  <line x1="195" y1="125" x2="180" y2="150" stroke="#8B7355" stroke-width="2" opacity="0.4"/>
+  <line x1="105" y1="175" x2="120" y2="150" stroke="#8B7355" stroke-width="2" opacity="0.4"/>
+  <line x1="195" y1="175" x2="180" y2="150" stroke="#8B7355" stroke-width="2" opacity="0.4"/>
+  
+  <text x="50" y="160" font-family="monospace" font-size="40" fill="#5C4A33" opacity="0.3">{</text>
+  <text x="240" y="160" font-family="monospace" font-size="40" fill="#5C4A33" opacity="0.3">}</text>
+  
+  <circle cx="150" cy="150" r="25" fill="#FFF8F0"/>
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="30" text-anchor="middle" fill="#2A9D8F">AI</text>
+  
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#2C2416">GelatAI</text>
+  <text x="150" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#5C4A33">by GrappoMilla</text>
+</svg>
